@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td {
+            
+            line-height: 40px;
+        }
+
+        tr td:first-child {
+            width: 150px;
+            text-align: right;
+        }
+        table tr:last-child  td{
+            text-align: center;
+        }
+        i {
+            text-indent: none;
+            color: red;
+        }
+        table input:nth-of-type(4) {
+            width:400px; height:100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <table border="1" cellspacing="0" width="800" cellpadding="0">
+            <caption>
+                <h3>留言薄</h3>
+            </caption>
+            <tr>
+                <td>您的姓名：</td>
+                <td colspan="2">
+                    <input type="text">
+                    <i>*</i>
+                </td>
+            </tr>
+            <tr>
+                <td>您的邮箱：</td>
+                <td colspan="2">
+                    <input type="text">
+                    <i>*</i>
+                </td>
+            </tr>
+            <tr>
+                <td>您的网站：</td>
+                <td colspan="2">
+                    <input type="text">
+
+                </td>
+            </tr>
+            <tr>
+                <td>其他联系方式：</td>
+                <td colspan="2">
+                    <input type="text">
+                    <i>*</i>（如QQ、email、电话等）
+                </td>
+            </tr>
+            <tr>
+                <td>留言内容：</td>
+                <td colspan="2">
+                    <input type="text" width="400" height="100">
+                    <i>*</i>
+                </td>
+            </tr>
+            <tr>
+                <td>请选择表情：</td>
+                <td colspan="2">
+                    <label for="1"><input type="radio" name="biaoqing" id="1"> <img src="./face/face1.gif"></label>
+                    <label for="2"><input type="radio" name="biaoqing" id="2"> <img src="./face/face1.gif"></label>
+                    <label for="3"><input type="radio" name="biaoqing" id="3"> <img src="./face/face1.gif"></label>
+                    <label for="4"><input type="radio" name="biaoqing" id="4"> <img src="./face/face1.gif"></label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>请选择头像：</td>
+                <td colspan="2">
+                    
+                    <label for="11"><input type="radio" name="touxiang" id="11"> <img src="./face/face1.gif"></label>
+                    <label for="21"><input type="radio" name="touxiang" id="21"> <img src="./face/face1.gif"></label>
+                    <label for="31"><input type="radio" name="touxiang" id="31"> <img src="./face/face1.gif"></label>
+                    <label for="41"><input type="radio" name="touxiang" id="41"> <img src="./face/face1.gif"></label>
+
+                </td>
+            </tr>
+            <tr >
+                <td colspan="3" >
+                    <button>tijiao</button>
+                    <button>quding</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
